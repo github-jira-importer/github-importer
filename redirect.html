@@ -52,7 +52,7 @@
             var jiraUrl = getQueryParameterValue("jiraUrl");
             if( jiraUrl != null ) {
                 AJS.$("#jiraUrl").text(jiraUrl);
-                var redirectUrl = jiraUrl + "/secure/admin/views/ReceiveOauthCodePage!default.jspa?externalSystem=com.atlassian.jira.plugins.jira-importers-github-plugin:githubImporterKey&" + query;
+                var redirectUrl = jiraUrl + "/secure/admin/GithubReceiveOauthCodePage!default.jspa?externalSystem=com.atlassian.jira.plugins.jira-importers-github-plugin:githubImporterKey&" + query;
                 //AJS.log(redirectUrl);
             }
 
